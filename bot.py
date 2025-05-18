@@ -3,7 +3,7 @@ from flask import Flask, request
 import telegram
 
 # ✅ Get bot token from environment variable
-TOKEN = os.environ.get("7770774968:AAF6P4G9OfnQdwZyqjpDR_5KXMv-btvH3BY")
+TOKEN = os.environ.get("BOT_TOKEN")
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN is not set in environment variables!")
